@@ -99,9 +99,9 @@ Maven-зеркало настраиваются автоматически (`.gr
 | `config/berlimatrm/BerlitATRM.zs` | человекочитаемый экспорт для MineTweaker (не автозагружается) |
 | `config/berlimatrm.cfg` | `requireOp`, `maxRecipes`, `exportScript` |
 
-Рецепты добавляются прямо в `ExtremeCraftingManager`, поэтому работают в столе Extreme Crafting
-и видны в NEI (штатный NEI-хендлер Avaritia). Удаления built-in рецептов тоже сохраняются: при
-следующем запуске они применяются заново после инициализации Avaritia.
+Рецепты добавляются прямо в `ExtremeCraftingManager`, поэтому работают в столе Extreme Crafting.
+Удаления built-in рецептов тоже сохраняются: при следующем запуске они применяются заново после
+инициализации Avaritia.
 
 `/atrm export` — перезаписать `.zs`; `/atrm reload` — перечитать `recipes.dat`.
 
@@ -174,7 +174,6 @@ src/main/java/ru/beggar/berlimatrm/
   network/               — пакеты GUI, очередь серверных задач
   compat/AvaritiaTweaker — ZenScript API
   selftest/              — headless-проверка
-tools/preview_gui.py     — макет интерфейса (Pillow)
 ```
 
 ## Лицензия
