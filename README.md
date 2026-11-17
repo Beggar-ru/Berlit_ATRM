@@ -38,9 +38,12 @@
 `@Mod(dependencies = "required-after:MineTweaker3;required-after:Avaritia")` — без них мод не
 загрузится. На сервере и клиенте нужны одинаковые моды.
 
+Отображаемое имя и артефакт — **Berlit_ATRM**; технический `modid` — `berlimatrm`
+(используется в путях `config/berlimatrm` и `mods.berlimatrm.Avaritia`).
+
 ## Установка
 
-1. Соберите jar (см. ниже) или возьмите `build/libs/berlimatrm-*.jar`.
+1. Соберите jar (см. ниже) или возьмите `build/libs/Berlit_ATRM-*.jar`.
 2. Положите его в `mods/` клиента и сервера вместе с Avaritia и MineTweaker/CraftTweaker.
 
 ## Сборка
@@ -48,7 +51,7 @@
 Нужен JDK 25 для Gradle и JDK 8 для целевого тулчейна (RFG скачивает/использует их сам).
 
 ```powershell
-.\tools\dev-env.ps1 build        # -> build/libs/berlimatrm-<версия>.jar
+.\tools\dev-env.ps1 build        # -> build/libs/Berlit_ATRM-<версия>.jar
 .\tools\dev-env.ps1 runClient    # dev-клиент с Avaritia и MineTweaker
 .\tools\dev-env.ps1 runServer    # dev-сервер
 ```
