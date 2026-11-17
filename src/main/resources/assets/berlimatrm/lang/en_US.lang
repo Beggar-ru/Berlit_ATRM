@@ -1,0 +1,52 @@
+# Berlit_ATRM - English (US)
+berlimatrm.gui.title=Berlit_ATRM
+berlimatrm.gui.subtitle=Avaritia 9x9 recipe maker
+
+berlimatrm.gui.recipe=Mode
+berlimatrm.gui.mode.shaped=Shaped
+berlimatrm.gui.mode.shapeless=Shapeless
+berlimatrm.gui.mode.remove=Remove
+berlimatrm.gui.mirrored=Mirrored
+berlimatrm.gui.result=Result
+berlimatrm.gui.remove_hint=Remove target
+berlimatrm.gui.clear=Clear grid
+berlimatrm.gui.ok=OK
+berlimatrm.gui.close=Close
+
+berlimatrm.gui.select_hint=Hover a cell and click * to select it
+berlimatrm.gui.star_tooltip=Select slot %s
+berlimatrm.gui.slot_empty=Slot %s: empty
+berlimatrm.gui.slot_item=Slot %s: %s
+berlimatrm.gui.options=Slot %s options
+berlimatrm.gui.options_none=Cell options
+
+berlimatrm.gui.ore=Ore Dictionary
+berlimatrm.gui.any_damage=Any damage
+berlimatrm.gui.any_item=Any item
+berlimatrm.gui.ore_label=Ore:
+berlimatrm.gui.ore_none=none
+berlimatrm.gui.nbt_label=NBT:
+berlimatrm.gui.nbt_hint=empty = ignore
+berlimatrm.gui.from_item=From item
+berlimatrm.gui.reset=Reset
+
+berlimatrm.gui.flag.any_item=any item
+berlimatrm.gui.flag.ore=ore:
+berlimatrm.gui.flag.any_damage=damage:*
+berlimatrm.gui.flag.nbt=NBT
+
+berlimatrm.status.added=Recipe added.
+berlimatrm.status.removed=Removed %s recipe(s).
+berlimatrm.status.duplicate=That recipe already exists.
+berlimatrm.status.no_output=Place the result item in the Result slot.
+berlimatrm.status.no_input=The crafting grid is empty.
+berlimatrm.status.no_match=No recipe for that item was found.
+berlimatrm.status.invalid=Invalid recipe: %s
+berlimatrm.status.limit=The recipe limit is reached.
+berlimatrm.status.no_permission=You are not allowed to edit recipes.
+berlimatrm.status.no_ore=No ore dictionary entries for slot %s.
+berlimatrm.status.bad_nbt=Invalid NBT tag in slot %s.
+
+berlimatrm.command.usage=Usage: /atrm [export|reload]
+berlimatrm.command.exported=Exported %s recipe(s) to %s
+berlimatrm.command.reloaded=Reloaded %s recipe(s).

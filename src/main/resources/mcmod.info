@@ -1,0 +1,21 @@
+{
+  "modListVersion": 2,
+  "modList": [{
+    "modid": "${modId}",
+    "name": "${modName}",
+    "description": "Berlit_ATRM - an in-game GUI for creating and removing Avaritia 9x9 Extreme Crafting recipes, with a Berlit-styled interface, ore dictionary/damage/NBT filters and a MineTweaker script export.",
+    "version": "${modVersion}",
+    "mcversion": "${minecraftVersion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["Beggar"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "parent": "",
+    "requiredMods": ["Avaritia", "MineTweaker3"],
+    "dependencies": [],
+    "dependants": [],
+    "useDependencyInformation": true
+  }]
+}

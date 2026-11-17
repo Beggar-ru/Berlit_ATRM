@@ -1,0 +1,14 @@
+/*
+ * Runtime/compile dependencies.
+ *
+ * Avaritia and MineTweaker 3 (shipped as CraftTweaker on GTNH) are hard dependencies
+ * declared in the @Mod annotation, so they are compileOnly + present in the dev runtime.
+ * Both jars are vendored in libs/ so the build does not depend on a flaky maven mirror.
+ */
+dependencies {
+    compileOnly files("libs/avaritia-1.13.jar")
+    compileOnly files("libs/CraftTweaker-1.7.10-3.0.11.jar")
+
+    devOnlyNonPublishable(rfg.deobf(files("libs/avaritia-1.13.jar")))
+    devOnlyNonPublishable(rfg.deobf(files("libs/CraftTweaker-1.7.10-3.0.11.jar")))
+}

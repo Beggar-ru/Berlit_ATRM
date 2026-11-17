@@ -1,0 +1,52 @@
+# Berlit_ATRM - Russian
+berlimatrm.gui.title=Berlit_ATRM
+berlimatrm.gui.subtitle=Рецепты Avaritia 9x9
+
+berlimatrm.gui.recipe=Режим
+berlimatrm.gui.mode.shaped=Форменный
+berlimatrm.gui.mode.shapeless=Бесформенный
+berlimatrm.gui.mode.remove=Удалить
+berlimatrm.gui.mirrored=Зеркально
+berlimatrm.gui.result=Результат
+berlimatrm.gui.remove_hint=Что удалить
+berlimatrm.gui.clear=Очистить сетку
+berlimatrm.gui.ok=OK
+berlimatrm.gui.close=Закрыть
+
+berlimatrm.gui.select_hint=Наведите на клетку и нажмите *
+berlimatrm.gui.star_tooltip=Выбрать ячейку %s
+berlimatrm.gui.slot_empty=Ячейка %s: пусто
+berlimatrm.gui.slot_item=Ячейка %s: %s
+berlimatrm.gui.options=Настройки ячейки %s
+berlimatrm.gui.options_none=Настройки ячейки
+
+berlimatrm.gui.ore=Ore Dictionary
+berlimatrm.gui.any_damage=Любой damage
+berlimatrm.gui.any_item=Любой предмет
+berlimatrm.gui.ore_label=Ore:
+berlimatrm.gui.ore_none=нет
+berlimatrm.gui.nbt_label=NBT:
+berlimatrm.gui.nbt_hint=пусто = не проверять
+berlimatrm.gui.from_item=Из предмета
+berlimatrm.gui.reset=Сброс
+
+berlimatrm.gui.flag.any_item=любой
+berlimatrm.gui.flag.ore=ore:
+berlimatrm.gui.flag.any_damage=damage:*
+berlimatrm.gui.flag.nbt=NBT
+
+berlimatrm.status.added=Рецепт добавлен.
+berlimatrm.status.removed=Удалено рецептов: %s.
+berlimatrm.status.duplicate=Такой рецепт уже есть.
+berlimatrm.status.no_output=Положите предмет-результат в ячейку «Результат».
+berlimatrm.status.no_input=Сетка крафта пуста.
+berlimatrm.status.no_match=Рецепт для этого предмета не найден.
+berlimatrm.status.invalid=Некорректный рецепт: %s
+berlimatrm.status.limit=Достигнут лимит рецептов.
+berlimatrm.status.no_permission=У вас нет прав на изменение рецептов.
+berlimatrm.status.no_ore=У ячейки %s нет записей Ore Dictionary.
+berlimatrm.status.bad_nbt=Некорректный NBT в ячейке %s.
+
+berlimatrm.command.usage=Использование: /atrm [export|reload]
+berlimatrm.command.exported=Экспортировано рецептов: %s в %s
+berlimatrm.command.reloaded=Перезагружено рецептов: %s.
